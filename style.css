@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E6E6FA;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.box {
+    width: 240px;
+    height: 240px;
+    background-color: #5E3B94;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.small-box {
+    width: 50px;
+    height: 50px;
+    background-color: #D2691E;
+    margin: 5px;
+    border-radius: 5px;
+}
+.veronica{
+    flex-direction: column;
+    align-items: start;
+}
+.kev{
+    flex-direction:row;
+    justify-content: space-between;
+}
+.fiona{
+    flex-direction:row;
+    justify-content: end;
+}
+.lip{
+    flex-direction: row;
+    justify-content: center;
+}
+.ien{
+    flex-direction: row;
+    justify-content:unset;
+}
